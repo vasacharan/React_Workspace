@@ -1,0 +1,22 @@
+.outer{
+    width: 25%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(39, 39, 39,0.2);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+button{
+    margin: 5px;
+    background-color: aquamarine;
+    border: 2px solid red;
+    padding: 3px 10px;   
+}
+
+.result-btn{
+    background-color: brown;
+    color: white;
+  
+    border: 1px solid red;
+}

@@ -1,14 +1,15 @@
-import Header from './Components/Header';
-import Gallery from './Components/Gallery';
+import React from 'react';
+import Router from './Router';
+import Forms from './Components/Forms';
+
 
 
 function App() {
   return (
     <div className="App">
-      <h3>Welcome to React </h3>
-      <Header />
-      <Gallery />
-      <Gallery />
+      <Router />
+      
+      
     </div>
   );
 }

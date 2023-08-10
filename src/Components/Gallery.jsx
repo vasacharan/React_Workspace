@@ -6,15 +6,24 @@ const person = {
     theme:{
         backgroundColor:'yelloW',
         color:'red',
-        align:'center'
+        textAlign:'center',
+        width:'30%'
+    },
+    textTheme:{
+        color: 'blue'
     }
 }
 export default function Gallery() {
   return (
     <div style={person.theme}>
-        <h3>{person.fullName} Uses</h3>
+        <h3>{person.fullName} Uses:</h3>
 
-        <img src="G:\React\react_workspace\src\Images\r2.jpg" alt='man' width={100} height={100}/>
+        <img src={'/Images/f1.jpg'} alt='man' style={{width:'15%'}} />
+        <ul style={person.textTheme}>
+            <li>Open source Javascript library</li>
+            <li>Used to build UI, responsible for build UI</li>
+            <li>build single page application</li>
+        </ul>
     </div>
   );
 }
