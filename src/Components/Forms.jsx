@@ -1,4 +1,5 @@
 import React from "react";
+import ApiData from "./ApiData";
 // import "../styles/Forms.css";
 
 class Forms extends React.Component{
@@ -18,6 +19,7 @@ class Forms extends React.Component{
       }]
       
     }
+    console.log('component Mounting  -- stage 1');
     //binding this 
     // this.handleChangeFn = this.handleChangeFn.bind(this);
     // this.handleChangeLn = this.handleChangeLn.bind(this);
@@ -28,6 +30,7 @@ class Forms extends React.Component{
   }
   //handling the event to change state by using event handler
   // const [firstName,lastName,email,password] = this.state;
+  
   handleChange=(e)=>{
     this.setState({
       [e.target.name] : e.target.value
@@ -56,18 +59,33 @@ class Forms extends React.Component{
                     // emailError : 'Enter valid Email',
                     // pwerror : 'Enter Valid Password'
                   }})
-
+            
             console.log(this.state.errMsg.errFname);
           }
    
     console.log(this.state);
   }
+componentDidMount(){
 
+  // actions can be written in this method like api cals, business logics 
+  
+  console.log('componentDidMount  -- stage 3');
+}
+
+//componentDidUpdate is to use compare state and props , it will work when state or props update
+
+componentDidUpdate(prevState){
+  if(this.state.firstName !== prevState.firstName){
+    console.log('component state updated');
+  }else{
+    console.log('sorry stopped');
+  }
+}
   render(){
        //this is the method array destructuring used to reduce using the "this.state.{names}" in value attribute
       // this has to be used in inside of render() method
       // const [firstName,lastName,email,password] = this.state;
-      
+      console.log('component render  -- stage 2');
     return(
       <div>
         <center>
@@ -94,6 +112,7 @@ class Forms extends React.Component{
 
         </form>
         </center>
+    
       </div>
     )
   }

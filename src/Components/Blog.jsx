@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Sample from './Sample';
-import shirt from '../Images/f1.jpg'
+import shirt from '../Asserts/Images/f1.jpg'
 
 const styles={
   h2Sty:{ 

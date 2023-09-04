@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../Images/Bms-logo.png';
+import Logo from '../Asserts/Images/Bms-logo.png';
 import { Link } from 'react-router-dom';
 
 
@@ -49,6 +49,12 @@ class Header extends React.Component{
                     <ul className="dropdown-menu">
                     <li><Link to="/Forms" className="dropdown-item">Form-Class</Link></li>
                     <li><Link to="/Calculator" className="dropdown-item">Calculator</Link></li>
+                    <li><Link to="/TableDataApi" className="dropdown-item">Axios-Class</Link></li>
+                    <li><Link to="/Expuseref" className="dropdown-item">useRef-Function</Link></li>
+                    <li><Link to="/TodoList" className="dropdown-item">Todo</Link></li>
+                    <li><Link to="/Weather" className="dropdown-item">Weather-App</Link></li>
+                    <li><Link to="/DataSort" className="dropdown-item">Sort City</Link></li>
+                    <li><Link to="/Pagination1" className="dropdown-item">Pagination</Link></li>
                     </ul>
                     </div>
                 </ul>

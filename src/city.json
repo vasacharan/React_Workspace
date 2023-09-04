@@ -1,0 +1,51 @@
+[
+    {
+        "id" : 1,
+        "name" : "Visakhapatnam"
+    },
+    {
+        "id" : 2,
+        "name" : "Hyderabad"
+    },
+    {
+        "id" : 3,
+        "name" : "Rajahmundry"
+    },
+    {
+        "id" : 4,
+        "name" : "Srikakulam"
+    },
+    {
+        "id" : 5,
+        "name" : "Kakinada"
+    },
+    {
+        "id" : 6,
+        "name" : "Vijayawada"
+    },
+    {
+        "id" : 7,
+        "name" : "Guntur"
+    },
+    {
+        "id" : 7,
+        "name" : "Nellore"
+    },
+    {
+        "id" : 9,
+        "name" : "Kadapa"
+    },
+    {
+        "id" : 10,
+        "name" : "Karnool"
+    },
+    {
+        "id" : 11,
+        "name" : "Tirupathi"
+    },
+    {
+        "id" : 12,
+        "name" : "Amalapuram"
+    }
+
+]
