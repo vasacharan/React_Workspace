@@ -11,7 +11,9 @@ class Header extends React.Component{
            About : 'About to',
            Services : 'Services',
            Blog : 'Blog',
-           Forms : 'Forms'
+           Forms : 'Forms',
+           Redux : 'Redux',
+
           
         }
     }
@@ -39,13 +41,15 @@ class Header extends React.Component{
                     <li className="nav-item">
                     <Link to="/Blog" className="nav-link active">{this.state.Blog}</Link>
                     </li>
+                    <li className="nav-item">
+                    <Link to="/Reduxexp2" className="nav-link active">{this.state.Redux}</Link>
+                    </li>
 
                     <div className="dropdown">
                     <button className="btn dropdown-toggle me-4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     {this.state.Forms}
-                   
-                   
                     </button>
+                    
                     <ul className="dropdown-menu">
                     <li><Link to="/Forms" className="dropdown-item">Form-Class</Link></li>
                     <li><Link to="/Calculator" className="dropdown-item">Calculator</Link></li>
@@ -55,6 +59,8 @@ class Header extends React.Component{
                     <li><Link to="/Weather" className="dropdown-item">Weather-App</Link></li>
                     <li><Link to="/DataSort" className="dropdown-item">Sort City</Link></li>
                     <li><Link to="/Pagination1" className="dropdown-item">Pagination</Link></li>
+                    <li><Link to="/FoodItems" className="dropdown-item">Foods</Link></li>
+                    <li><Link to="/Shop" className="dropdown-item">E-Shop</Link></li>
                     </ul>
                     </div>
                 </ul>

@@ -1,5 +1,7 @@
 import React from "react";
-import ApiData from "./ApiData";
+// import ApiData from "./ApiData";
+
+
 // import "../styles/Forms.css";
 
 class Forms extends React.Component{
@@ -112,7 +114,7 @@ componentDidUpdate(prevState){
 
         </form>
         </center>
-    
+          
       </div>
     )
   }

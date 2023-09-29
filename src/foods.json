@@ -1,0 +1,74 @@
+
+
+[
+    {
+        "id" : "1",
+        "img" : "Pictures/ricee.png",
+        "food_name" : "rice",
+        "ingradients" : "Rice, Water",
+        "cook_method" : "Boil the rice untill rice cooked",
+        "for_5_members" : "4 cups of rice, 8 cups of water, boil untill cook "
+    },
+    {
+        "id" : "2",
+        "img" : "Pictures/chk-curry.jpg",
+        "food_name" : "chicken curry",
+        "ingradients" : "Chicken, Pepper, Salt, Water, onions",
+        "cook_method" : "First clean the chicken, then mix with salt, pepper, oil, then cook like curry ",
+        "for_5_members" : "Buy 1kg of chicken, 70gms - pepper, 40gms - salt, 1/2 kg onions"
+    },
+    {
+        "id" : "3",
+        "img" : "Pictures/Potato-curry.jpg",
+        "food_name" : "Aloo curry",
+        "ingradients" : "Aloo, Pepper, Salt, Water, onions",
+        "cook_method" : "First peal the Aloo, then mix with salt, pepper, oil, then cook like curry ",
+        "for_5_members" : "Buy 1/2 kg of Aloo, 70gms - pepper, 40gms - salt, 1/2 kg onions"
+
+    },
+    {
+        "id" : "4",
+        "img" : "Pictures/brinjal_curry.jpg",
+        "food_name" : "Brinjal curry",
+        "ingradients" : "Brinjal, Pepper, Salt, Water, onions",
+        "cook_method" : "First clean the Brinjal, then mix with salt, pepper, oil, then cook like curry ",
+        "for_5_members" : "Buy 1kg of Brinjal, 70gms - pepper, 40gms - salt, 1/2 kg onions"
+    },
+    {
+        "id" : "5",
+        "img" : "Pictures/dal-fry.jpg",
+        "food_name" : "Dal curry",
+        "ingradients" : "Dal, Pepper, Salt, Water, onions, Tomatos",
+        "cook_method" : "First clean the Dal, then mix with salt, pepper, oil, then cook like dal with tomatos ",
+        "for_5_members" : "Buy 1/2kg of Dal, 70gms - pepper, 40gms - salt, 1/4 kg onions"
+        
+    },
+    {
+        "id" : "6",
+        "img" : "Pictures/burger.jpg",
+        "food_name" : "Veg Burger",
+        "ingradients" : "Buns, Potato shredder, green peas, carrot, sasue, Mayo",
+        "cook_method" : "First make rounded shape patties with potato, g.peas, carrot paste. Then fry that patties and put btw buns and apply mayo and sause",
+        "for_5_members" : "16 buns, 1kg potato, 100gms carrot, 50gms green peas, oil, salt"
+        
+    },
+    {
+        "id" : "7",
+        "img" : "Pictures/fishfry.jpg",
+        "food_name" : "Fish fry",
+        "ingradients" : "Fishs, 100gms oil, salt, pepper",
+        "cook_method" : "Take fresh fishes, clean it, peal it, apply salt and pepper and then fry that fishes ",
+        "for_5_members" : "5 medium fishes,100gms onions, mirchi"
+        
+    },
+    {
+        "id" : "8",
+        "img" : "Pictures/pasta.jpg",
+        "food_name" : "Pasta",
+        "ingradients" : "Pasta, Pepper, Salt, Water, onions, Tomatos, mayo, sasue",
+        "cook_method" : "Boil the pasta and add tomato, mayo paste on that apply spices",
+        "for_5_members" : "1/2 kg pasta, 100gms tomato, mayo, chilli"
+        
+    }
+
+]

@@ -5,6 +5,7 @@ import Practice from './Practice';
 import DataHub from './DataHub';
 import Dogapi from './Dogapi';
 
+
 const styles={
   h2Sty:{ 
     textAlign : 'center'
@@ -20,6 +21,7 @@ export default function Home() {
    <Practice />
    <DataHub />
    <Dogapi />
+   
     </div>
   )
 }

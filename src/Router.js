@@ -12,6 +12,8 @@ import TodoList from './Components/TodoList';
 import { Weather } from './Components/Weather';
 import { DataSort } from './Components/DataSort';
 import { Pagination1 } from './Components/Pagination1';
+import FoodItems from './Components/FoodItems';
+import Shop from './Components/Shop';
 
 
 
@@ -34,6 +36,8 @@ function Router(){
             <Route exact path='/Weather' element={<Weather />} />
             <Route exact path='/DataSort' element={<DataSort />} />
             <Route exact path='/Pagination1' element={<Pagination1 />} />
+            <Route exact path='/FoodItems' element={<FoodItems />} />
+            <Route exact path='/Shop' element={<Shop />} />
         </Routes>
         </BrowserRouter>
         

@@ -1,0 +1,101 @@
+[
+    {
+        "id" : "1",
+        "item_img" : "Pictures/product-4.jpg",
+        "item_name" : "Watch",
+        "description" : "Premium watch",
+        "details" : "Handsome look and features, 100% genuine product",
+        "item_price" : 250
+    },
+    {
+        "id" : "2",
+        "item_img" : "Pictures/f1.jpg",
+        "item_name" : "Shirt-colored",
+        "description" : "Colorful, trendy look, 100% cotton product",
+        "details" : "latest trendy shirt fit to body, more sizes available",
+        "item_price" : 250
+    },
+    {
+        "id" : "3",
+        "item_img" : "Pictures/f6.jpg",
+        "item_name" : "Shirt-Double",
+        "description" : "Colorful, trendy look, 100% cotton product",
+        "details" : "latest trendy shirt fit to body, more sizes available",
+        "item_price" : 250
+    },
+    {
+        "id" : "4",
+        "item_img" : "Pictures/thunb-3.jpg",
+        "item_name" : "VR-glass",
+        "description" : "Feture electrtonic product",
+        "details" : "Used for singles, experience with very near to eye.",
+        "item_price" : 250
+    },
+    {
+        "id" : "5",
+        "item_img" : "Pictures/burger.jpg",
+        "item_name" : "Burger",
+        "description" : "Veggy burger with grate taste",
+        "details" : "Wonderful... taste",
+        "item_price" : 250
+    },
+    {
+        "id" : "6",
+        "item_img" : "Pictures/pasta.jpg",
+        "item_name" : "Pasta",
+        "description" : "tasty and creemy Desert ",
+        "details" : "Yummy Taste with creemy flavour",
+        "item_price" : 250
+    },
+    {
+        "id" : "7",
+        "item_img" : "Pictures/f7.jpg",
+        "item_name" : "Women Skirt",
+        "description" : "Colorful, trendy look, 100% cotton product",
+        "details" : "latest trendy Skirt fit to body, more sizes available",
+        "item_price" : 250
+    },
+    {
+        "id" : "8",
+        "item_img" : "Pictures/n6.jpg",
+        "item_name" : "Trouser",
+        "description" : "Colorful, trendy look, 100% cotton product",
+        "details" : "Daily usage and more comfort, more sizes available",
+        "item_price" : 250
+    },
+    {
+        "id" : "9",
+        "item_img" : "Pictures/p1.jpg",
+        "item_name" : "Running Shoe",
+        "description" : "Colorful, trendy look, genuine product",
+        "details" : "latest trendy fit to foot, more sizes available",
+        "item_price" : 250
+    },
+    {
+        "id" : "10",
+        "item_img" : "Pictures/n8.jpg",
+        "item_name" : "Shirt Black",
+        "description" : "Colorful, trendy look, 100% cotton product",
+        "details" : "latest trendy shirt fit to body, more sizes available",
+        "item_price" : 250
+    },
+    {
+        "id" : "11",
+        "item_img" : "Pictures/p4.jpg",
+        "item_name" : "Office Shoe",
+        "description" : "Designed for regular office works",
+        "details" : "Made with pure leather, with bright coloring to match Young",
+        "item_price" : 250
+    },
+    {
+        
+        "id" : "12",
+        "item_img" : "Pictures/p6.jpg",
+        "item_name" : "Casual Shoe",
+        "description" : "Colorful, trendy look, Water proof",
+        "details" : "Made with pure leather, with bright coloring to match Young",
+        "item_price" : 250
+        
+    }
+    
+]

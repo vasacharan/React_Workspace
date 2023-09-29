@@ -7,7 +7,9 @@ export const DataSort = () => {
 
     const searchHandler = (e) =>{
         setSearch(e.target.value);
+        
     }
+
   return (
     <div>
     <center>
