@@ -12,9 +12,7 @@ class Header extends React.Component{
            Services : 'Services',
            Blog : 'Blog',
            Forms : 'Forms',
-           Redux : 'Redux',
-
-          
+           Redux : 'Redux' 
         }
     }
     

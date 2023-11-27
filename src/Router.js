@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { BrowserRouter,Routes,Route} from 'react-router-dom';
 import Header from './Components/Header'
 import Home from './Components/Home';
@@ -12,9 +14,9 @@ import TodoList from './Components/TodoList';
 import { Weather } from './Components/Weather';
 import { DataSort } from './Components/DataSort';
 import { Pagination1 } from './Components/Pagination1';
-import FoodItems from './Components/FoodItems';
+// import FoodItems from './Components/FoodItems';
 import Shop from './Components/Shop';
-
+const LazyFooditem = React.lazy(()=>import('./Components/FoodItems'))
 
 
 function Router(){
@@ -36,7 +38,7 @@ function Router(){
             <Route exact path='/Weather' element={<Weather />} />
             <Route exact path='/DataSort' element={<DataSort />} />
             <Route exact path='/Pagination1' element={<Pagination1 />} />
-            <Route exact path='/FoodItems' element={<FoodItems />} />
+            <Route exact path='/FoodItems' element={<React.Suspense fallback='Loading...'><LazyFooditem /></React.Suspense>} />
             <Route exact path='/Shop' element={<Shop />} />
         </Routes>
         </BrowserRouter>

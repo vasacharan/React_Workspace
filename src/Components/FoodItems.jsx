@@ -3,7 +3,7 @@ import shirt from '../Asserts/Images/f1.jpg';
 import food from '../foods.json';
 
 
-export default function FoodItems() {
+function FoodItems() {
 const [search, setSearch] = useState('');
 
 const handleSearch=(e)=>{
@@ -46,3 +46,5 @@ const handleSearch=(e)=>{
     </div>
   )
 }
+
+export default FoodItems;

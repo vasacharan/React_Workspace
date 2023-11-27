@@ -16,23 +16,15 @@ const user = {
 }
 
 localStorage.setItem('user',JSON.stringify(user));
-// const val1 = localStorage.getItem('user');
 
-// console.log(JSON.stringify(user.userName));
-
-// const [store, setStore] = useState('');
 const {firstName,password,date,errMsg} = validate;
 
     const chandleInput=(e)=>{
         // e.preventDefault();
-        setValidate({...validate,[e.target.name] : [e.target.value]})
+        setValidate({...validate,[e.target.name] : e.target.value})
+        
     }
-    // const storeValue=(e)=>{
-    //     setStore(firstName)
-    // }
 
-    // const validateUserName = /^[a-zA-Z0-9]{6,15}$/;
-    // const validatePassword = /^[a-zA-Z0-9_@]{8,16}$/;
 
 
     const submitHandler =(e)=>{
@@ -56,6 +48,7 @@ const {firstName,password,date,errMsg} = validate;
         // setValidate({errMsg : ''})
         // console.log(validate);
         // }
+        console.log(validate);
     }
         const validateDetails = () =>{
             let result = false;
